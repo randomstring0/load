@@ -1,4 +1,4 @@
-loadstring(hame:httpGet("https://raw.githubusercontent.com/randomstring0/load/refs/heads/main/flame"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/load/refs/heads/main/flame"))()
 
 --[[
 
