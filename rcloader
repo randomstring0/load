@@ -94,6 +94,7 @@ TextBox.TextColor3 = Color3.fromRGB(255, 255, 0)
 TextBox.TextSize = 14.000
 TextBox.TextXAlignment = Enum.TextXAlignment.Left
 TextBox.TextYAlignment = Enum.TextYAlignment.Top
+TextBox.TextWrapped = true
 
 ImageButton.Parent = Frame
 ImageButton.BackgroundColor3 = Color3.fromRGB(0, 255, 30)
