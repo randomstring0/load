@@ -1,3 +1,19 @@
+_G.Config = {
+    ["allowshiftlock"] = true,
+    ["ctrltp"] = false,
+    ["placeholders"] = true,
+    ["clickfling"] = false,
+    ["highlightflingtargets"] = true,
+    ["discharscripts"] = false,
+    ["flingchangestate"] = 3,
+    ["respawntp"] = 3,
+    ["breakjointsmethod"] = 1,
+    ["simrad"] = false,
+    ["hidedeatheffect"] = true,
+    ["permadeath"] = true,
+    ["fling"]=true
+}
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/iamfe/refs/heads/main/not%20sniper"))()
 
 --[[
