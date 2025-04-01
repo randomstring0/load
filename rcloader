@@ -1,8 +1,3 @@
-if _G.RCLOADER then
-    return
-end
-_G.RCLOADER = true
-
 c121 = {"ScreenGui","Frame","ImageLabel","Protected_06","Frame","ImageLabel","ImageButton","TextLabel","TextBox","UITextSizeConstraint","TextButton","loadder"} -- useless moment
 local c1, c2, v0, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c120, c15 = game, c121[4], Instance.new, Color3.fromRGB, task.wait, "Apanel", "sometestg", loadstring, UDim2.new, game.Players.LocalPlayer:FindFirstChild("PlayerGui"), "loadder", warn, nill, ".githubusercontent.com", 1, 0.1, Vector2.new
  if c9:FindFirstChild(c121[1*5+5+2]) then return end;
@@ -27,8 +22,10 @@ _WhatUDoingAtHere = function()
       c7(c1:HttpGet(c12))()
       c4(c120)
      v1:Destroy()
+    if _G.RCLOADER then return end
+    _G.RCLOADER = true
 end 
-_IKnowUSeingThis = function()
+_IKnowUSawThis = function()
      setclipboard(c12_1)
 end
 c122, c123 = nill, nill -- ye useless
@@ -89,7 +86,7 @@ v10.Size = c8(0.0576726347, 0, 0.14325501, 0)
 v10.Image = "http://www.roblox.com/asset/?id=6035053285"
 v10.ScaleType = Enum.ScaleType.Fit
 v10.ZIndex = 7
-v10.MouseButton1Click:Connect(_IKnowUSeingThis)
+v10.MouseButton1Click:Connect(_IKnowUSawThis)
 c12="https://raw.githubusercontent.com/randomstring0/new/refs/heads/main/notchip.json"
 v11.Name = "c1222"
 v11.Parent = v9
